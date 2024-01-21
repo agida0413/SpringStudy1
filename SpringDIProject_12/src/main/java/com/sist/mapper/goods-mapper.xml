@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <mapper namespace="com.sist.mapper.GoodsMapper">
+ <select id="goodsFindData" parameterType="hashmap" resultType="GoodsVO">
+ SELECT no, GOODS_SUB, GOODS_PRICE from goods_all
+ WHERE #{cname} LIKE '%'||#{ss}||'%'
+ </select>
+ </mapper>
