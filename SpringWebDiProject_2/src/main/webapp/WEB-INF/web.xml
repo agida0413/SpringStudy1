@@ -24,7 +24,7 @@
 	       	{	
 	       	String path=config.getInitParameter("configContextLocation");
 	       	path="/WEB-INF/config/application-*.xml"
-	       	webApplicationContext app=new WebApplicationContext(path)
+	       	webApplicationCo	ntext app=new WebApplicationContext(path)
 	       	}
 	       	while
 	       	public void service(request,response){
