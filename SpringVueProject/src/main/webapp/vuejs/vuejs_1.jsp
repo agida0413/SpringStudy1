@@ -21,12 +21,13 @@ width: 800px;
       Vue : 1. 가상 돔을 사용 => 속도를 빠르게 처리
              mount => 가상 메모리에 저장
              => String / StringBuffer
-            2.생명주기 
-            3.디렉티브 
-            4.서버연동 
-            5.출력형식 
-            6.양방향통신
-            7.router
+            2.생명주기  ->callback
+            3.디렉티브 =>제어문
+            4.서버연동 =>axios
+            5.출력형식 = > {{}} / : src=  
+            6.양방향통신  = > v-model
+            7.router => 화면 변경 
+ 		    8. vue-bootstrap
  --%>
 <body>
 <div class="container">
