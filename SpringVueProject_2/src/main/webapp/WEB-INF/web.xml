@@ -4,6 +4,8 @@
    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
    <!-- 
       @WebServlet("*.do")
+      
+      web.xml = > 톰캣이 읽는 설정파일
     -->
    <servlet>
       <servlet-name>dispatcher</servlet-name>
