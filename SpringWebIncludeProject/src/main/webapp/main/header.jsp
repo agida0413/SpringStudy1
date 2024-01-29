@@ -20,7 +20,7 @@
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">서울여행
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">명소</a></li>
+          <li><a href="../seoul/list.do">명소</a></li>
           <li><a href="#">자연</a></li>
           <li><a href="#">쇼핑</a></li>
         </ul>
@@ -37,6 +37,8 @@
       </li>
       
       <li><a href="#">실시간 채팅</a></li>
+        <li><a href="../food/find.do">맛집 검색</a></li>
+          <li><a href="#">상품 검색</a></li>
       
     </ul>
   </div>

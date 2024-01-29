@@ -10,7 +10,26 @@ import org.springframework.web.bind.annotation.GetMapping;
 import com.sist.dao.FoodDAO;
 import com.sist.mapper.FoodMapper;
 import com.sist.vo.FoodVO;
-
+/*
+ * 1.mvc동작과정 	
+ * 			=> web.xml 등록  dispatcherServlet 
+ * 							= HandlerMapping: @Controller
+ * 							= WebApplicationContext : 클래스 관리
+ * 								=>@autowired = > getBean()
+ * 2.공통 예외처리 : @controllerAdvice
+ * 
+ * 3.인터셉트 사용: preHandle() , afterCompletion()
+ * 4.메모리 할당 : 어노테이션
+ * 5.AOP
+ * 6.cookie / HttpSession
+ * 7.RestController = > JSON
+ * ===>DI/AOP/MVC
+ * ==>JSON,REST
+ * ===============================================
+ * 6.고급
+ * validation ,WebSocket , Security , Task(Betch)
+ * Spring-Data
+ */
 @Controller
 public class MainController {
 	@Autowired
@@ -39,7 +58,7 @@ public String main_main(String page,Model model) {
 	model.addAttribute("totalpage",totalPage);
 	model.addAttribute("startpage",startPage);
 	model.addAttribute("endpage",endPage);
-	model.addAttribute("main_jsp","home.jsp");
+	model.addAttribute("main_jsp","../main/home.jsp");
 	return "main/main";
 }
 
