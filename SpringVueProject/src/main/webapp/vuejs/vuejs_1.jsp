@@ -21,6 +21,12 @@ width: 800px;
       Vue : 1. 가상 돔을 사용 => 속도를 빠르게 처리
              mount => 가상 메모리에 저장
              => String / StringBuffer
+            2.생명주기 
+            3.디렉티브 
+            4.서버연동 
+            5.출력형식 
+            6.양방향통신
+            7.router
  --%>
 <body>
 <div class="container">
@@ -38,7 +44,7 @@ let app=Vue.createApp({
          msg:'Hello Vue3'      
       }
    }
-}).mount('.container')
+}).mount('.container')//가상돔에 올림 - > 제어영역선택
 </script>
 </body>
 </html>
